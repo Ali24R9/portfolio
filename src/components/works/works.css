@@ -27,6 +27,10 @@
     overflow: hidden;
 }
 
+.portfolio__item-image img {
+    width: 250px !important;
+}
+
 .portfolio__item h3{
 
     margin: 1.2rem 0 .5rem;
