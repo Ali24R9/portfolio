@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "serve -s build",
+    "build": "vite build",
   },
   "dependencies": {
     "@types/react-icons": "^3.0.0",
