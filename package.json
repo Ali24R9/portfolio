@@ -8,7 +8,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "start": "serve -s build",
-    "build": "vite build"
+    "build": "vite build",
+    "install": "yarn install"
   },
   "dependencies": {
     "@types/react-icons": "^3.0.0",
