@@ -1,8 +1,22 @@
+#about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
 .about__container{
 
 /*    display: grid;
     grid-template-columns: 30% 50%;
     gap: 15%;*/
+    width: 60%;
+    text-align: left;
+    margin: 5px auto;
+}
+
+.portfolio__item-image img {
+    border-radius: 10px;
 }
 
 .about__me{
