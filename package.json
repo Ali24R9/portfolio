@@ -9,6 +9,12 @@
     "preview": "vite preview",
     "start": "serve -s build",
     "build": "vite build",
+    "heroku-postbuild": "yarn dev"
+        },
+    "engines": {
+      "node": ">=20.0",
+      "yarn": "4.9.1"
+    }
   },
   "dependencies": {
     "@types/react-icons": "^3.0.0",
@@ -31,8 +37,4 @@
   "optionalDependencies": {
       "@rollup/rollup-linux-x64-gnu": "4.6.1"
   },
-  "engines": {
-    "node": ">=20.0",
-    "yarn": "4.9.1"
-  }
 }
