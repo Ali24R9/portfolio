@@ -40,6 +40,8 @@
 
     display: flex;
     gap: 2rem;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .experience__details-icon{

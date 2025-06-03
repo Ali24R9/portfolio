@@ -12,7 +12,7 @@ const Footer = () => {
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#experience">Experience</a></li>
-            <li><a href="#myprojects">My Projects</a></li>
+            <li><a href="#works">My Projects</a></li>
         </ul>
 
         <div className="footer__socials">

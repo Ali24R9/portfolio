@@ -2,7 +2,7 @@ import React from 'react'
 import './works.scss'
 import IMG1 from '../../assets/img1.png'
 import IMG2 from '../../assets/img1.png'
-import IMG3 from '../../assets/img1.png'
+import IMG3 from '../../assets/img2.png'
 import IMG4 from '../../assets/img1.png'
 
 if(document.body.classList.contains('home')) {
@@ -168,7 +168,7 @@ const Works = () => {
                 <img src={IMG1} alt="" />
             </div>
             <h3>Landing Page (live site)</h3>
-            <small className='text-light'>Spring Boot | ReactJs | MySQL</small>
+            <small className='text-light'>Laravel/PHP | Wordpress | SCSS | JavaScript</small>
             <div className="portfolio__item-cta">
               <a href="https://www.zingermanscommunity.com" target="_blank" rel='noreferrer' className='btn'>Github</a>
             </div>
@@ -176,10 +176,22 @@ const Works = () => {
         </article>
         <article className='portfolio__item'>
             <div className="portfolio__item-image">
+                <img src={IMG3} alt="" />
+            </div>
+            <h3>CMS Site</h3>
+            <small className='text-light'>Laravel/PHP | Wordpress | SCSS | JavaScript</small>
+            <div className="portfolio__item-cta">
+              <a href="https://www.zingermansroadhouse.com" target="_blank" rel='noreferrer' className='btn'>Github</a>
+              <a href="https://www.zingermansroadhouse.com" target="_blank" rel='noreferrer' className='btn btn-primary'>Visit Website</a>  
+            </div>
+            
+        </article>
+        <article className='portfolio__item'>
+            <div className="portfolio__item-image">
                 <img src={IMG2} alt="" />
             </div>
-            <h3>Beauty Garden</h3>
-            <small className='text-light'>HTML | CSS | JS | php | MySQL</small>
+            <h3>Nav Wheel</h3>
+            <small className='text-light'>HTML | CSS | JavaScript </small>
             <div className="portfolio__item-cta">
               <a href="https://www.zingermanscommunity.com" target="_blank" rel='noreferrer' className='btn'>Github</a>  
             </div>
@@ -189,20 +201,8 @@ const Works = () => {
             <div className="portfolio__item-image">
                 <img src={IMG4} alt="" />
             </div>
-            <h3>My Portfolio(This website)</h3>
+            <h3>Espresso</h3>
             <small className='text-light'>ReactJs</small>
-            <div className="portfolio__item-cta">
-              <a href="https://www.zingermanscommunity.com" target="_blank" rel='noreferrer' className='btn'>Github</a>
-              <a href="https://www.zingermanscommunity.com" target="_blank" rel='noreferrer' className='btn btn-primary'>Visit Website</a>  
-            </div>
-            
-        </article>
-        <article className='portfolio__item'>
-            <div className="portfolio__item-image">
-                <img src={IMG3} alt="" />
-            </div>
-            <h3>My Resume</h3>
-            <small className='text-light'>HTML | CSS | JS | Bootstrap</small>
             <div className="portfolio__item-cta">
               <a href="https://www.zingermanscommunity.com" target="_blank" rel='noreferrer' className='btn'>Github</a>
               <a href="https://www.zingermanscommunity.com" target="_blank" rel='noreferrer' className='btn btn-primary'>Visit Website</a>  
