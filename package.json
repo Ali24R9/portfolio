@@ -8,16 +8,13 @@
     "build": "vite build",
     "preview": "vite preview",
     "start": "serve -s build",
-    "build": "vite build"
   },
   "dependencies": {
     "@types/react-icons": "^3.0.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-icons": "^4.10.1",
-    "sass": "^1.89.1"
-  },
-  "devDependencies": {
+    "sass": "^1.89.1",
     "@eslint/js": "^9.25.0",
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.2",
@@ -32,6 +29,7 @@
       "@rollup/rollup-linux-x64-gnu": "4.6.1"
   },
   "engines": {
-    "node": "20.x"
+    "node": "20.x", 
+    "yarn": "1.x"
   }
 }
